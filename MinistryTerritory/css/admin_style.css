@@ -1,0 +1,577 @@
+body {
+    background: #313537;
+    color: whitesmoke;
+    font-size: 170%;
+}
+
+h1, h2, h3, h4 {
+    font-weight: lighter;
+}
+
+.loadingImage {
+    width: 100%;
+    text-align: center;
+}
+
+.loadingImage img{
+    width: 120px;
+    margin: 30px auto;
+}
+
+
+.navbar ul{
+    padding: 10px;
+}
+
+.navbar button {
+  margin-bottom: 10px;  
+}
+
+/* Overrides the active class background color for dark theme*/ 
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+ background:#D6190A;
+}
+
+
+#searchUserInput {
+    margin-top: 10px;
+}
+
+.container h2 {
+    margin-bottom: 40px !important;
+}
+
+/* ------------------- HIDE PAGES WHEN SITE LOADS --------------*/
+#add_user_page,#territory_page,#pending_territory_page,#territory_address_page,#records_page,#update_form {
+    display: none;
+}
+
+/* ---------- UPDATES AND NEWS -----------*/
+#updatesAndNews h2{
+    text-align: center;
+}
+
+#updatesAndNews label,input,textarea {
+    display: block;
+    margin: 0 auto;
+}
+#updatesAndNews label {
+    text-align: center;
+    font-size: 25px;
+}
+
+#updatesAndNews input {
+    width: 650px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#updatesAndNews .btn {
+    margin-top: 20px;
+    color: whitesmoke;
+    width: 250px;
+}
+
+#updatesAndNews textarea {
+    width: 650px;
+    color: black;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    background: whitesmoke;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+/*--------- ADD USER DIV ------------*/
+
+#add_user_div {
+    height: 400px;
+    width: 320px;
+    margin: 20px;
+    line-height: 1.5em;
+    
+}
+
+#add_user_div h2 {
+    margin-bottom: 30px;
+}
+
+#add_user_div input{
+    color: black;
+    width: 220px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+
+#add_user_div label {
+    font-weight: lighter;
+    float: left;
+    clear: both;
+    
+}
+
+#add_user_div label,input {
+    margin-bottom: 20px;
+}
+
+#addUserButton {
+    width: 5em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+}
+
+
+#showAllUser:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+/*--------- END OF ADD USER DIV ------------*/
+
+
+/*--------- ADD TERRITORY DIV ------------*/
+
+#add_territory_div {
+    height: 400px;
+    
+}
+
+#add_territory_div {
+    width: 320px;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+#add_territory_div h2 {
+    margin-bottom: 30px;
+}
+
+#add_territory_div input{
+    color: black;
+    width: 220px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+
+#add_territory_div label {
+    font-weight: lighter;
+    float: left;
+    clear: both;
+    
+}
+
+#add_territory_div label,input {
+    margin-bottom: 20px;
+}
+
+#add_territory_div #addTerritoryButton {
+    width: 5em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+}
+
+
+#showAllTerritory:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+/*--------- END OF TERRITORY DIV ------------*/
+
+
+/*--------- ADD TERRITORY ADDRESS DIV ------------*/
+
+#add_territory_address_div {
+    height: 400px;
+}
+
+#add_territory_address_div {
+    width: 320px;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+#add_territory_address_div h2 {
+    margin-bottom: 30px;
+}
+
+#add_territory_address_div input{
+    color: black;
+    width: 220px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+
+#add_territory_address_div label {
+    font-weight: lighter;
+    float: left;
+    clear: both;
+    
+}
+
+#add_territory_address_div label,input {
+    margin-bottom: 20px;
+}
+
+#add_territory_address_div #addTerritoryAddressButton {
+    width: 5em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+}
+
+
+#showAllTerritoryAddress:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+#showAllTerritoryAddress {
+    margin-top:  -200px;
+}
+
+/*--------- END OF TERRITORY ADDRESS DIV ------------*/
+
+
+/*--------- UPDATE ADDRESS DIV ------------*/
+
+
+#update_form {
+    width: 340px;
+    height: 380px;
+    background: #515456;
+    margin: 20px;
+    line-height: 1.5em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -175px;
+    border-radius: 10px;
+    
+}
+
+#update_form h4 {
+    text-align: center;
+}
+
+#update_form h4 span{
+    float: right;
+    margin-right: 10px;
+}
+
+#update_form h4 span:hover{
+    cursor: pointer;
+    color: #FB2F01;
+}
+
+#update_form input{
+    color: black;
+    width: 320px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+#update_form label {
+    font-weight: lighter;
+    margin-left: 10px;
+    float: left;
+    clear: both;
+    
+}
+
+#update_form label,input {
+    margin-bottom: 20px;
+}
+
+#update_form .updateAddressDetailsButton {
+    width: 8em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+    margin-top: 10px;
+}
+
+
+
+/* TABLE */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px 0px 60px 20px;
+}
+
+table button {
+    width: 120px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    width: inherit;
+    white-space: nowrap;
+    text-align: center !important;
+}
+
+tr:nth-child(even) {
+    background-color: #151717;
+}
+
+tr:hover {
+    background: #065975;
+}
+
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+table tr.viaComment{
+    background: #801870;
+}
+
+table tr.generalComment{
+    background: #188036;
+    font-weight: bolder !important;
+    text-shadow: 2px 2px 18px #FB0404;
+}
+
+table tr.territoryTaken{
+    background: #182380;
+}
+
+table tr.territoryReturned{
+    background: #AB2B02;
+}
+
+#home_page table tr:hover{
+    background: #151515;
+}
+/*----------------STATUS BOX -----------------*/
+#status_box {
+    width: 300px;
+    height: 120px;
+    color: whitesmoke;
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top:50%;
+    margin-top: -60px;
+    text-align: center;
+    background: #485657;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px #798386;
+    z-index: 100;
+    
+}
+
+
+#status_box button {
+    width: 100px;
+    margin: 10px;
+}
+
+.blur_all {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/*  UL AND LISTS*/
+
+#territory_address_info_div ul {
+    margin: 20px;
+   
+}
+
+#territory_address_info_div li {
+    width:200px;
+    list-style: none;
+    line-height: 2em;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#territory_address_info_div span {
+    margin-left: 20px;
+    float: right;
+}
+
+#territory_address_info_div span:hover {
+    margin-left: 20px;
+    float: right;
+    color: #FA3B1D;
+    font-size: 25px;
+}
+
+#territory_address_info_div li:hover {
+   background: #1D4D6D;
+    cursor: pointer;
+}
+viewAddressDetails {
+    
+}
+
+/* ADD TERRITORY FORM*/
+#addAddressForm {
+    width: 700px;
+    height: 280px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -140px;
+    background: #575D62;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #7F95AB;
+    border-radius: 10px;
+}
+
+
+
+
+#addAddressForm h2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+#addAddressForm input{
+    color: black;
+    width: 500px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+
+#addAddressForm label {
+    font-weight: lighter;
+    float: left;
+    clear: both;
+    
+}
+
+#addAddressForm label,input {
+    margin-bottom: 20px;
+}
+
+#addAddressForm #yesButton {
+    width: 8em !important;
+    color: white !important;
+    float:left;
+    clear: right;
+    margin-right:20px;
+    margin-left: 250px;
+}
+
+#addAddressForm #noButton {
+    width: 8em !important;
+    color: white !important;
+    float:left;
+    clear: right;
+    margin-right:20px;
+}
+
+
+
+
+/* TERRITROY ADDRESS DETAILS */
+#viewAddressDetails {
+    max-width: 70%;
+    overflow-x: scroll;
+    margin-left: 80px;
+    padding-bottom: 40px;
+    float:left;
+    display: inline-block !important;
+    white-space: nowrap;
+}
+
+
+
+#viewAddressDetails input{
+    color: black;
+    width: 320px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+}
+
+#viewAddressDetails label {
+    width: 400px;
+    font-weight: lighter;
+    float: left;
+    clear: both;
+    
+}
+
+#viewAddressDetails label,input {
+    margin-bottom: 20px;
+}
+
+#addMoreAddress {
+    width: 5em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+#territory_address_info_div {
+    width: 200px;
+    float: left;
+    display: inline-block!important;
+    white-space: nowrap;
+}
+
+#addMoreAddress {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

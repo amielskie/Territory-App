@@ -1,0 +1,567 @@
+
+
+h2, h3, h4, h5, h6{
+    font-weight: normal !important;
+}
+
+.navbar {
+    font-size: 1.1em;
+}
+
+.navbar button{
+    margin-bottom: 15px;
+}
+
+
+.navbar-brand img{
+    width: 72px;
+    padding-top: -5px;
+    margin-top: -15px;
+    font-size: 20px
+}
+
+.navbar-header {
+    height: 72px;
+}
+
+#bs-example-navbar-collapse-1{
+    padding-top: 10px;
+}
+
+/* Overrides the active class background color for dark theme*/ 
+.navbar.navbar-inverse .nav > .active > a {
+    background:#0E5C75 !important;
+    border-radius: 5px !important;    
+} 
+
+/* Overrides the active class background color for light theme*/ 
+.navbar.navbar-default .nav > .active > a {
+    background:#C1C7CA !important;
+    border-radius: 5px !important;
+    
+} 
+
+/*----------------STATUS BOX -----------------*/
+#status_box {
+    width: 300px;
+    height: 150px;
+    color: whitesmoke;
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top:50%;
+    margin-top: -75px;
+    text-align: center;
+    background: #485657;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #798386;
+    z-index: 100;
+    
+}
+#status_box h4 {
+    padding: 10px;
+}
+
+#status_box button {
+    width: 100px;
+}
+
+.blur_all {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/* ------------- PAGE BODY ------------*/
+#territory_pages h1{
+    margin-bottom: 40px !important;
+}
+
+li.list_item h2{
+    font-size: 18px !important;   
+    margin: -5px;
+}
+li.list_item{
+    font-size: 15px !important;
+    height: 100%;
+}
+
+.showAddressButton {
+    display: inline-block;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.showAddressButton:hover {
+    cursor: pointer;
+    color: #008FFF;
+}
+
+.showAddressButton h4{
+   font-size: 15px !important;
+}
+.showAddressButton h4 span{
+   margin-left: 10px;
+}
+
+/*------------- MY TERRITORY ----------*/
+.profile_pic {
+    margin: 10px;
+    margin-right: 20px;
+    width: 72px;
+    height: 72px;
+}
+
+#my_territory {
+    display:none;
+}
+
+#my_territory h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#my_territory .user_details {
+    margin-bottom: 20px;
+}
+#my_territory .my_territory_list li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+#my_territory .my_territory_list li:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/*---------- MY TERRITORY LIST ITEMS -------------------*/
+#my_list li{
+    box-shadow: 0px 0px 10px #798386;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.my_list_details {
+    width: inherit;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 20px #818D92;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.my_list_details img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.my_list_details h4 {
+    font-size: 0.8em !important;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.return_btn {
+    width: 12em;
+    margin: 5px auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* -------------------- AVAILABLE TERRITORY -----------*/
+
+#available_list li{
+    box-shadow: 0px 0px 10px #798386;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#available_territory {
+    display:none;
+}
+
+#available_territory h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#available_territory .available_territory_list li {
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+#available_territory .available_territory_list li:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.get_btn {
+    width: 12em;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+/* ----------- LOADING IMAGE ------------*/
+.loadingImage {
+    width: 130px !important;
+    padding: 0px !important;
+    margin: 30px auto;+
+    text-align: center;
+}
+.loadingImage img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* ----------THEME--------*/
+.dark_theme {
+    background-color: #36383B;
+    color: whitesmoke;
+}
+
+.light_theme {
+    background-color: #EDF3F5;
+    color: black;
+}
+
+/*--------------- HOME PAGE -----------------*/
+#home_page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home_page h3 {
+    font-size: 20px;
+    padding:2px;
+    margin-top: 20px;
+    border: 1px solid #8D9397;
+    border-radius: 5px;
+}
+
+#home_page p {
+    text-align: left;
+    margin: 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#home_page span {
+    float: right;
+    font-size: 15px;
+}
+
+#newsAndUpdates {
+    white-space: pre-line;
+}
+
+/* -------------------- FOOTER ----------*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+.container hr {
+    border: none !important;
+}
+
+
+
+/* TABLE */
+
+#territoryAddress {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0%;
+    left: -1%;
+    padding: 0px;
+    text-align: center;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+
+#territoryAddress h4{
+    text-align: center:
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0px 30px 20px;
+    background: #54595D;
+    border-radius: 10px;
+    color: white;
+}
+
+table button {
+    width: 80px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.closeAddressDetailsButton {
+    margin-bottom: 40px;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    width: inherit;
+    white-space: nowrap;
+    text-align: center !important;
+}
+
+tr:nth-child(even) {
+    background-color: #151717;
+}
+
+tr:hover {
+    background: #065975;
+}
+
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+#territoryAddress textarea{
+    width: 300px;
+    height: 150px;
+    color: black;
+}
+
+#territoryAddress .closeAddressDetailsButton{
+    margin-top: 20px;
+    line-height: 2em;
+    width: 150px;
+}
+
+#territoryAddress .addGeneralComment{
+    margin-top: 20px;
+    line-height: 1.5em;
+    width: 150px;
+}
+
+
+
+
+/*--------- UPDATE ADDRESS DIV ------------*/
+
+
+#update_form {
+    width: 340px;
+    height: 380px;
+    background: #515456;
+    margin: 20px;
+    line-height: 1.5em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -175px;
+    border-radius: 10px;
+    display: none;
+    
+}
+
+#update_form h4 {
+    text-align: center;
+    color: white;
+}
+
+#update_form h4 span{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
+#update_form h4 span:hover{
+    cursor: pointer;
+    color: #FB2F01;
+}
+
+#update_form input{
+    color: black;
+    width: 320px;
+    float: right;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+
+#update_form label {
+    font-weight: lighter;
+    margin-left: 10px;
+    float: left;
+    clear: both;
+    color: white;
+    
+}
+
+#update_form label,input {
+    margin-bottom: 20px;
+}
+
+#update_form .updateAddressDetailsButton {
+    width: 8em !important;
+    color: white !important;
+    float: right;
+    clear: both;
+    margin-top: 10px;
+}
+
+#updateVia {
+    background: #FED4CA;
+}
+
+#updateIntercom {
+    background: #FED4CA;
+}
+
+/* MEDIA PLAYERS */
+iframe {
+    width: 1280px;
+    height: 720px;
+}
+
+
+/* EDIT USER PROFILE */
+#edit_profile {
+    width: 340px;
+    height: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    background: #415E39;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -170px;
+    display: none;
+}
+
+#edit_profile h2 {
+    text-align: center;
+    color: white;
+}
+
+#edit_profile h2 span{
+    margin-top: -40px;
+    margin-right: -20px;
+}
+
+#edit_profile h2 span:hover{
+    cursor: pointer;
+    color: #FB2F01;
+}
+
+#edit_profile input, label {
+    display: inline-block;
+    margin: 10px;
+}
+
+#edit_profile input {
+    width: 280px;
+    color: black;
+}
+
+#edit_profile label {
+    font-size: 20px;
+    color: white;
+}
+
+#edit_profile .saveUserInfo {
+    color: white;
+}
+
+
+/* For smartphones mobile screens*/
+@media only screen and (max-width: 768px) {
+    
+        h3, h4, h5, h6 {
+            font-size: 170% !important;
+        }
+        
+        .navbar {
+        font-size: 1.1em !important;
+        }
+
+        h1 {
+            font-size: 200%;
+        }
+
+        .profile_pic{ 
+            width: 48px;
+            height: 48px;
+        }
+
+        .my_list_details h4 {
+        font-size: 0.8em !important;
+    }
+    
+    /* MEDIA PLAYERS */
+    iframe {
+        width: 620px;
+        height: 300px;
+        margin-left: 20px;
+    }
+
+}
+
+/* For smartphones screen in vertical*/
+@media only screen and (max-width: 420px) {
+    /* MEDIA PLAYERS */
+    iframe {
+        width: 315px;
+        height: 180px;
+    }
+    
+}
+
+
+
